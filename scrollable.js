@@ -15,7 +15,7 @@
      * Wrapper of nanoScrollerJS
      * @name sun.scrollable
      */
-    var module = angular.module('sun.scrollable', ['ng']);
+    var module = angular.module('ngNanoscroller', ['ng']);
 
     /**
      * Configuration for the directive

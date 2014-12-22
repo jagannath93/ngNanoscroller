@@ -19,7 +19,7 @@ Also you can use bower:
 
 Next, make sure to add **`sun.scrollable`** to your Angular app/module requirements:
 ```javascript
-var module = angular.module('app', ['sun.scrollable']);
+var module = angular.module('app', ['ngNanoscroller']);
 ```
 
 ## Usage
