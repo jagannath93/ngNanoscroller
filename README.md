@@ -17,7 +17,7 @@ Also yiu mus include [nanoScrollerJS](http://jamesflorentino.github.io/nanoScrol
 Also you can use bower:
 `bower install angular-nanoscroller`
 
-Next, make sure to add **`sun.scrollable`** to your Angular app/module requirements:
+Next, make sure to add **`ngNanoscroller`** to your Angular app/module requirements:
 ```javascript
 var module = angular.module('app', ['ngNanoscroller']);
 ```
@@ -56,6 +56,16 @@ OR
 ```
 
 ### Additional attributes
+```html
+<div scrollable scrollend="loadMore()" watchCollection="results">
+	...Some Content...
+</div>
+OR 
+<div scrollable scrollTop="loadMore()" watchCollection="results">
+	...Some Content...
+</div>
+```
+
 
 Using attribute `static` will disable automatic scrollbar reconfiguration
 when height of content is changed.
